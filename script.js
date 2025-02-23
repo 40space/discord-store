@@ -1,5 +1,5 @@
 document.getElementById('connect-discord').addEventListener('click', () => {
-    window.location.href = '/auth/discord';
+    window.location.href = 'https://discord.com/oauth2/authorize?client_id=1343301532996862087&response_type=code&redirect_uri=https%3A%2F%2F4bspace.github.io%2Fdiscord-store%2Fauth%2Fdiscord%2Fcallback&scope=identify+guilds.join';
 });
 
 document.querySelectorAll('.buy-button').forEach(button => {
